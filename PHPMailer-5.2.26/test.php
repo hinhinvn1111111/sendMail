@@ -13,7 +13,7 @@
     include "class.phpmailer.php"; 
     $nFrom = "Mozala";    //mail duoc gui tu dau, thuong de ten cong ty ban
     $mFrom = 'helld0123456789@gmail.com';  //dia chi email cua ban 
-    $mPass = 'Khongthenoi';    
+    $mPass = '';    
     $nTo = 'Đinh Văn Hinh'; //Ten nguoi nhan
     $mTo = '15110208@student.hcmute.edu.vn';   //dia chi nhan mail
     $mail             = new PHPMailer();
